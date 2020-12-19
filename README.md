@@ -1,5 +1,30 @@
 # dotnet-vaquinha-tests
-Projeto Base para Testes - .Net Core  
+
+Este projeto é requisito para completar o bootcamp Avanade Fullstack Developer e contempla testes usando o xUnit para realizar testes de unidade em C#. O projeto é um projeto baseado em vaquinhas (crowfunding) online. 
+Contempla : 
+padrão de desenvolviemnto MVC 
+TDD 
+XUnit
+Theory e InlineData
+
+
+Teste unitário : 
+
+![](1.PNG)
+
+
+- teste caixa branca : conhece o codigo 
+- teste caixa preta : não conhece o codigo 
+- regressão : novas versões não afetam versões passadas 
+- focar os testes nas funcionalidades mais usadas 
+![](2.PNG) 
+![](3.PNG) 
+- XUnit 
+- AAA - Arrange , Act , Assert 
+- mocks != fake 
+- mock dado simulado 
+- fake = faz realmente o request 
+- 
 
 
 
